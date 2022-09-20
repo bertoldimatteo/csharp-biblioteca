@@ -7,4 +7,10 @@
     public bool status { get; set; }
     public string position { get; set; }
     public string author { get; set; }
+
+    public Document(int code, string title)
+    {
+        this.code = code;
+        this.title = title; 
+    }
 }
