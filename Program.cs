@@ -17,3 +17,6 @@ User userRegistered = new User("Mario", "Rossi", "mail@mail.com", "lamiapassword
 User userAnonimous = new User("null", "null", "null", "null", 123456789);
 
 library.newUser(userRegistered);
+
+List<Document> risultati = library.searchElements("guerra");
+Console.WriteLine(risultati[0].title);

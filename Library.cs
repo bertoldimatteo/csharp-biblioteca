@@ -14,7 +14,7 @@ public class Library
         userRegistered.Add(user);   
     }
 
-    public List<Document> searchElements (string title)
+    public List<Document> searchElements(string title)
     {
         List<Document> results = new List<Document>();
 
