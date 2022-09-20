@@ -4,6 +4,7 @@
     public string email { get; set; }
     public string password { get; set; }
     public int mobilePhone { get; set; }
+    public bool registered { get; set; }
 
     public User(string name, string surname, string email, string password, int mobilePhone)
     {

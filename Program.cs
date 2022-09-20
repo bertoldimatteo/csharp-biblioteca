@@ -15,3 +15,5 @@ Console.WriteLine(firstMovie.title);
 
 User userRegistered = new User("Mario", "Rossi", "mail@mail.com", "lamiapassword123", 123456789);
 User userAnonimous = new User("null", "null", "null", "null", 123456789);
+
+library.newUser(userRegistered);
